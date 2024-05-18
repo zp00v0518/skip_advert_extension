@@ -20,6 +20,7 @@ function observeCallback() {
     // let btn = document.querySelector('[id^="skip-button"]')
     let btn = document.querySelector('button.ytp-ad-skip-button.ytp-button')
     if (!btn) btn = document.querySelector('button.ytp-ad-skip-button-modern.ytp-button')
+    if (!btn) btn  = document.querySelector('button.ytp-skip-ad-button')
     const imgReklama = document.querySelector('div.ytp-ad-image-overlay')
     const pauseInplay = document.querySelector('.ytp-ad-overlay-close-container')
 
