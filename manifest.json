@@ -29,7 +29,9 @@
             ],
             "js": [
                 "contentScript/contentScript.js"
-            ]
+            ],
+            "run_at": "document_start",
+            "world": "MAIN"
         }
     ],
     "action": {
