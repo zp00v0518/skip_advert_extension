@@ -30,6 +30,7 @@
             "js": [
                 "contentScript/contentScript.js"
             ],
+            "css": ["assets/styles.css"],
             "run_at": "document_start",
             "world": "MAIN"
         }

@@ -1,0 +1,3 @@
+.ytd-rich-grid-renderer:has(.badge-style-type-ad){
+    display: none;
+}
