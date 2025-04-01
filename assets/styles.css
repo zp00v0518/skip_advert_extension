@@ -1,3 +1,7 @@
 .ytd-rich-grid-renderer:has(.badge-style-type-ad){
     display: none;
 }
+
+ytd-rich-item-renderer:has(ad-image-view-model) {
+    display: none;
+}
